@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo base -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Círculo principal centrado -->
+    <item>
+        <shape
+            android:layout_height="wrap_content"
+            android:shape="oval">
+            <size
+                android:width="200dp"
+                android:height="200dp" />
+            <solid android:color="#FFD700" /> <!-- Color del círculo -->
+        </shape>
+    </item>
+
+    <!-- Círculo adicional fuera del centro -->
+    <item android:top="25dp" android:left="-50dp">
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#FFA500" />
+        </shape>
+    </item>
+
+    <!-- Otro círculo parcialmente fuera de la pantalla -->
+    <item android:bottom="-50dp" android:right="-150dp">
+        <shape android:shape="oval">
+            <size android:width="250dp" android:height="250dp" />
+            <solid android:color="#6AFFE5" />
+        </shape>
+    </item>
+
+    <!-- Más círculos dispersos -->
+    <item android:top="-150dp" android:right="-100dp" android:bottom="-100dp" android:left="-100dp">
+        <shape android:shape="oval">
+            <size android:width="400dp" android:height="400dp" />
+            <solid android:color="#CAFFFB" />
+        </shape>
+    </item>
+
+    <item android:bottom="-100dp" android:left="-200dp">
+        <shape android:shape="oval">
+            <size android:width="550dp" android:height="550dp" />
+            <solid android:color="#78D4F8" />
+        </shape>
+    </item>
+</layer-list>
