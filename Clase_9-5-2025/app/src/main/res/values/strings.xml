@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Ejemplo1</string>
     <string name="textViewNameCelular">Samsung Galaxy A15</string>
+    <string name="buttonBuyNow_message">Compra realizada</string>
+    <string name="buttonPricing_message">Precios: $1000</string>
+    <string name="buttonDetails_message">Detalles</string>
+
 </resources>
