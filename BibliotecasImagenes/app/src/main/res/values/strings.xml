@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bibliotecas de Imagenes en Android</string>
+    <string name="glide_title">Glide Demo</string>
+    <string name="picasso_title">Picasso Demo</string>
+    <string name="fresco_title">Fresco Demo</string>
+    <string name="load_image">Cargar Imagen</string>
+    <string name="circle_transform">Transformación Circular</string>
+    <string name="rounded_corners">Esquinas Redondeadas</string>
+    <string name="blur_effect">Efecto Blur</string>
+    <string name="grayscale">Escala de Grises</string>
+    <string name="resize">Redimensionar</string>
+    <string name="progressive">Carga Progresiva</string>
+    <string name="auto_rotate">Auto Rotación</string>
+    <string name="local_resource">Recurso Local</string>
+    <string name="clear_cache">Limpiar Cache</string>
+</resources>
